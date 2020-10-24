@@ -1,0 +1,39 @@
+@media all and (max-width: 480px) {
+  .custom-class {
+    width: 100%;
+    display: block;
+  }
+}
+.form-inline {
+  justify-content: center;
+}
+
+.carousel-inner .carousel-item {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+
+a:hover {
+  color: azure;
+}
+
+.card {
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+/* .footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+} */
+
+@media screen and (max-width: 1080px) {
+  div#donutchart {
+    zoom: 0.6;
+    margin-left: -16%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
