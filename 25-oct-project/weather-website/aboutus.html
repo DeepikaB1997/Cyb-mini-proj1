@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>weather.com</title>
+  <script defer src="jquery-3.5.1.js"></script>
+  <script defer src="./bootstrap/bootstrap.js"></script>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script defer src="script.js"></script>
+  <script defer type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body class="main-body">
+  <!-- this is header -->
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><i class="fa fa-cloud fa-2x text-info" aria-hidden="true"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="search-box mx-auto">
+          
+          <form class="form-inline my-2 my-lg-0">
+              <input id="searchInput" class="form-control mr-sm-2 text-center" type="search" placeholder="Search City Here" aria-label="Search">
+              <button id="searchBtn" class="btn btn-outline-info custom-class my-2 my-sm-0 enableOnInput" type="button">Search <i  class="fa fa-search" aria-hidden="true"></i></button>
+              
+            </form>
+           
+          </div>
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-auto active"><span id="currentCityName"></span>
+                  <button id="locationBtn"  class="btn text-center"><span class="geo-location"></span><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+                </li>     
+          <li class="nav-item active">
+            <a class="nav-link text-center text-dark" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></span></a>
+          </li>
+          <li class="nav-item">
+            <button id="acrossCitiesBtn" class="btn mx-auto d-block">Across cities</button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center text-dark" href="aboutus.html">About Us <i class="fa fa-info-circle" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!-- this is main content -->
+<section>
+  <main style="height: 100vh;">
+
+    <section id="sec-about" class="sec-about pt-5 pb-5">
+        <div class="container">
+         
+
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                    <div class="row justify-content-center text-center">
+                            <div class="col-md-10 col-lg-8">
+                              <h1 class="h3">About us</h1>
+                              <p class="mt-4 mb-4"> This weather app is one of best free weather apps with full features: Local weather, weather map (weather map service) and weather widgets.
+                                Forecastle: Forecast now, hourly forecast and daily forecast app
+                                Widgets for Android: The weather radar widget free and clock widget weather with beautiful style.
+                                Weather map, weather radar map: Local weather radar app free with a lot of radar scope: Rain/snow, temperature, pressure, windy, clouds, humidity, waves, … and storm radar.</p>
+                            </div>
+                          </div>
+            </div>
+          </div>
+
+  </main>
+ <footer class=" page-footer py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Your Website</small>
+  </div>
+</footer> 
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+</body>
+</html>

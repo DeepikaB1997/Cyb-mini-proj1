@@ -1,0 +1,51 @@
+html{
+  height: 100vh;
+}
+
+body
+{
+  position: relative;
+  min-height: 100%;
+
+}
+
+
+.form-inline {
+  justify-content: center;
+}
+
+.carousel-inner .carousel-item {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+
+a:hover {
+  color: azure;
+}
+
+.card {
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  
+} 
+
+
+
+
+/* @media only screen and (min-width:0px) and (max-width:320px){
+  .footer{
+      bottom: 0;
+      position: fixed-bottom;
+      width: 100%;
+  }
+} */
+
+
+/*# sourceMappingURL=style.css.map */
